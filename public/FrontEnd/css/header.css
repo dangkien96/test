@@ -1,0 +1,133 @@
+
+header{
+	background-color: #f1f1f1;
+	max-width: 1600px;
+	min-width: 1366px;
+}
+.banner-left{	
+	background-color:#f1f1f1; 
+}
+
+.header-phone img{
+	margin-top: 15%;
+
+	/* margin: 18% 0px; */
+}
+.header-ques img{
+	margin-top: 15%;
+	/* margin: 18% 0px; */
+}
+.header-vn{
+	color: black;
+
+}
+.header-lang{
+	margin-top: 4%;
+	margin-right: 4%;
+}
+.header-fa-chevron-right{
+	font-size: 12px;
+}
+
+/* ---------------------nav coppy -----------------------*/
+
+
+
+
+.fa-chevron-down{
+	font-size: 12px;
+}
+nav{z-index: 1;font-size: 13px;font-family:'Myriad Pro'; position:relative;min-width: 1366px; max-width:1600px;margin:0 auto; border-top: 8px solid #e14f3b;}
+#cssmenu{padding-left: 20px;}
+#cssmenu,#cssmenu ul,#cssmenu ul li,#cssmenu ul li a,#cssmenu #head-mobile{list-style:none;display:block;position:relative;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}
+#cssmenu:after,#cssmenu > ul:after{content:".";display:block;clear:both;visibility:hidden;line-height:0;height:0}
+#cssmenu #head-mobile{display:none}
+#cssmenu{background:#303030}
+#cssmenu > ul > li{float:left}
+#cssmenu > ul > li > a{padding:17px;letter-spacing:1px;text-decoration:none;color:#ddd;}
+#cssmenu > ul > li:hover > a,#cssmenu ul li.active a{color:#fff}
+#cssmenu > ul > li:hover,#cssmenu ul li.active:hover,#cssmenu ul li.active,#cssmenu ul li.has-sub.active:hover{background:#e14f3b!important;-webkit-transition:background .3s ease;-ms-transition:background .3s ease;transition:background .3s ease;}
+#cssmenu > ul > li.has-sub > a{padding-right:30px}
+#cssmenu > ul > li.has-sub > a:after{position:absolute;top:22px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu > ul > li.has-sub > a:before{position:absolute;top:19px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+#cssmenu > ul > li.has-sub:hover > a:before{top:23px;height:0}
+#cssmenu ul ul{position:absolute;left:-9999px}
+#cssmenu ul ul li{height:0;-webkit-transition:all .25s ease;-ms-transition:all .25s ease;background:#333;transition:all .25s ease}
+#cssmenu ul ul li:hover{}
+#cssmenu li:hover > ul{left:auto}
+#cssmenu li:hover > ul > li{height:35px}
+#cssmenu ul ul ul{margin-left:100%;top:0}
+#cssmenu ul ul li a{border-bottom:1px solid rgba(150,150,150,0.15);padding:11px 15px;width:200px;font-size:12px;text-decoration:none;color:#ddd;font-weight:400;}
+#cssmenu ul ul li:last-child > a,#cssmenu ul ul li.last-item > a{border-bottom:0}
+#cssmenu ul ul li:hover > a,#cssmenu ul ul li a:hover{color:#fff}
+#cssmenu ul ul li.has-sub > a:after{position:absolute;top:16px;right:11px;width:8px;height:2px;display:block;background:#ddd;content:''}
+#cssmenu ul ul li.has-sub > a:before{position:absolute;top:13px;right:14px;display:block;width:2px;height:8px;background:#ddd;content:'';-webkit-transition:all .25s ease;-ms-transition:all .25s ease;transition:all .25s ease}
+#cssmenu ul ul > li.has-sub:hover > a:before{top:17px;height:0}
+#cssmenu ul ul li.has-sub:hover,#cssmenu ul li.has-sub ul li.has-sub ul li:hover{background:#363636;}
+#cssmenu ul ul ul li.active a{border-left:1px solid #333}
+#cssmenu > ul > li.has-sub > ul > li.active > a,#cssmenu > ul ul > li.has-sub > ul > li.active> a{border-top:1px solid #333}
+ul.style-ul{
+	margin-bottom: 0px;
+}
+
+/* bot-menu */
+#bot_menu{
+	min-width: 1366px;
+	max-width: 1600px;	
+	z-index: 0;
+	height: 106px;
+	background: url('../image/header-bot-menu.png') top left repeat-x;
+}
+.img-bot-menu{
+	height: 100%;
+}
+.input-pos{
+	position: relative;
+	margin: 1.8% 0px;
+	
+}
+.input-pos .input-ab{
+	position: absolute;
+    border: none;
+    width: 67%;
+    height: 36px;
+    margin: 2.6% 0px;
+    font-size: 25px;
+}
+
+.input-pos .div-input-left{
+	position: absolute;	
+	background: url('../image/back-input-left.png') top left no-repeat;
+	height: 58px;
+	width: 6%;
+	top: 0;
+	left: 0;
+	z-index: 0;
+
+}
+.input-pos .div-input-right{
+	position: absolute;
+	background: url('../image/back-input-right.png') top right repeat-x;
+	height: 58px;
+	width: 64%;
+	top: 0;
+	left: 4%;
+	z-index: 0;
+}
+
+.sub-ab{
+	
+	position: absolute;
+	left: 67%;
+	top: 0;
+	background: url('../image/back-input-button.png') top left no-repeat;
+	border: none;
+	height: 56px;
+	width: 32%;
+	z-index: 1;
+}
+.input-ab{
+	background-color: #f1f6fa;
+}
+
+

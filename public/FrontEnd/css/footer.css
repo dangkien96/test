@@ -1,0 +1,58 @@
+*{
+	font-family: "Rectangle";
+	margin:0px;
+	padding:0px;
+}
+
+footer {
+	width: 100%;
+	background-color: #303030;
+	color: #fff;
+}
+footer .name h3{
+	color: #e14f3b;
+	border: none;
+}
+
+footer p span{
+	font-style: italic;
+}
+
+footer h3 {
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	border-bottom: 4px solid #e14f3b; 
+}
+
+footer .login {
+	height: 50px;
+	background-color: #e14f3b;
+} 
+footer .login .login-name{
+	color: #fff;
+	padding-left: 50px;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 45px;
+}
+footer .access {
+	margin-bottom: 50px;
+}
+footer .login i {
+	line-height: 45px;
+	padding-left: 15px;
+}
+footer .login i:last-child {
+	padding-right: 25px;
+}
+.access-add p span {
+	font-weight: bold;
+}
+.name .text-fix {
+	text-transform: uppercase;
+	padding-bottom: 15px;
+} 
+.margin-footer-10 {
+	margin-bottom: 30px;
+}

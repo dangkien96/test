@@ -1,0 +1,196 @@
+.section-width {
+	min-width: 1200px;
+	max-width: 1600px;
+}
+.advertise img {
+	margin-bottom: 10px;
+	width: 100%;
+}
+.news-content img{
+	width: 100%;
+	position: relative;
+}
+.new-content-cover {
+	height: 100%;
+    width: 100%;
+    background-color: #000;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.padding-left-0 {
+	padding-left: 0px;
+}
+.padding-right-0 {
+	padding-right: 0px;
+}
+
+.news-content:hover .new-content-cover{
+	opacity: 0.7;	
+}
+.question {
+	
+}
+.news-m {
+	position: absolute;
+	color:#fff;
+	bottom: 40px;
+	font-weight: bold;
+	left: 65px;
+	font-size: 16px;
+}
+.time-post{
+	font-style: italic;
+	font-size: 13px;
+}
+
+.button-news{
+	padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 0px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+a{
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+.news-m a{
+	color: #fff;
+}
+.login-section {
+	background-color: #000;
+	color: #fff;
+}
+.icon-login i{
+	margin: 10px 20px;
+	font-size: 20px;
+}
+.list-section button{
+	font-size: 14px;
+	background-color: transparent;
+	border: 1px solid #a8a8a8;
+	float:right;
+	margin-top:10px;
+}
+.list-section .title-list span {
+	font-size: 25px;
+	text-transform: uppercase;
+	font-family: "Myriad Pro";
+	font-weight: 500;
+	border-bottom: 4px solid #e14f3b;
+}
+.list-section {
+	margin-top: 22px;
+}
+.content-nd:first-child{
+	margin-left: 0px;
+	float: left;
+}
+.content-nd {
+	width: 115px;
+	height: 115px;
+	border: 2px solid #daccbb;
+}
+.content-nd {
+	width: 105px;
+	height: 105px;
+	border: 2px solid #daccbb;
+	margin-top: 30px;
+}
+.content-nd:last-child{
+	margin-left: 0px;
+	float:right;
+}
+
+	
+.bg-content-list1{
+	background-image: url('../image/icon-heate.png');
+	background-position: 7px 9px;
+	background-repeat: no-repeat;
+}
+.bg-content-list2{
+	background-image: url('../image/icon-heate.png');
+	background-position: -126px 9px;
+	background-repeat: no-repeat;
+	left: 12%;
+
+}
+.bg-content-list3{
+	background-image: url('../image/icon-heate.png');
+	background-position: -258px 9px;
+	background-repeat: no-repeat;
+}
+.content-list p{
+	top:60px;
+	font-size: 17px;
+	font-weight: 600;
+	font-family: "Myriad Pro";
+	text-transform: uppercase;
+	position: absolute;
+	left: 34px;
+}
+.content-list .title{
+	top:80px;
+	font-weight: 100;
+	text-transform: capitalize;
+	font-size: 8px;
+	font-style: italic;
+	font-family: "Myriad Pro";
+	position: absolute;
+	left: 28px;
+}
+.content-list .title:first-child{
+	left: 34px;
+}
+.content-list span{
+	top:60px;
+	font-size: 10px;
+	font-family: "Myriad Pro";
+	position: absolute;
+	left: 34px;
+}
+
+@media screen and (max-width: 1365px)  {
+	.bg-content-list2 {
+		left: 7%;
+	}
+}
+
+@media screen and (min-width: 1367)  {
+	.bg-content-list2 {
+		left: 17%;
+	}
+
+}  
+
+
+
+
+/* -------------------news ----------------------------*/
+#news-detail{
+	margin-top: 2%;
+}
+.con-index-news{
+
+    color: #777777;
+    margin-bottom: 3%;
+}
+.fa-chevron-right-1{
+	font-size: 12px;
+}
+
+.time-post1{
+	margin-left: 10px;
+}
+.news-content1{
+	margin-top: 1.5%;
+}
+.title-news1{
+	margin-top: -10px;
+}
